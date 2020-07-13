@@ -1,0 +1,101 @@
+.page-careers {
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // padding: 150px 0 100px;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // position: relative;
+    // padding: 100px 0;
+    // height: 100%;
+    // width: 100%;
+    // background-color: rgb(9, 15, 94);
+    // // z-index: 8;
+
+    .banner-intro {
+        position: relative;
+        padding: 100px 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(9, 15, 94);
+        // z-index: 8;
+
+        &-block-title {
+            text-align: center;
+            padding-top: 50px;
+            h2 {
+                color: $white;
+            }
+    
+            p {
+                color: $white;
+            }
+        }
+    }
+
+    .content {
+        padding: map-get($spacers, 5) 0 120px;
+        &-block-title {
+            padding: map-get($spacers, 5) 0;
+            text-align: center;
+            h3 {
+                font-family: 'Nunito';
+                color: $gray-800;
+                font-weight: $font-weight-bold;
+                @include responsive-font-size(50px);
+            }
+            p {
+                color: $gray-600;
+                font-weight: $font-weight-normal;
+                @include responsive-font-size(16px);
+            }
+        }
+
+        .card-group {
+            padding-bottom: map-get($spacers, 5);
+            transition: all 0.5s;
+
+            &:hover {
+                transform: translateY(-5px);
+            }
+            .card {
+                border: none;
+                img {
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
+                }
+            }
+
+            .card-text {
+                font-weight: $font-weight-light;
+                color: $gray-600;
+                @include responsive-font-size(16px);
+            }
+            
+        }
+
+
+        .btn {
+            color: $white;
+            font-weight: $font-weight-normal;
+            font-family: 'Rubik';
+            transition: all 0.5s;
+            @include responsive-font-size(14px);
+            &:hover {
+                transform: translateY(-5px);
+            }
+            
+        }
+        .btn-primary {
+            box-shadow: 0px 16px 31px -16px #2f55d4;
+            padding: map-get($spacers, 2) map-get($spacers, 4);
+        }
+        .btn-danger {
+            box-shadow: 0px 16px 31px -16px #ff426f;
+            padding: map-get($spacers, 2) map-get($spacers, 4);
+        }
+    }
+
+
+}

@@ -1,0 +1,40 @@
+.home-sessao-one {
+    padding: 80px 0;
+
+    &-block-title {
+        text-align: center;
+        margin-bottom: map-get($spacers, 5);
+        p {
+            color: $indigo;
+            margin-bottom: map-get($spacers, 2);
+            text-transform: uppercase;
+            font-weight: $font-weight-normal;
+            @include responsive-font-size(14px);
+        }
+        h2 {
+            font-family: 'Nunito';
+            color: $gray-800;
+            font-weight: $font-weight-bolder;
+            @include responsive-font-size(52px);
+        }
+    }
+    &-wrapper {
+        text-align: center;
+        align-items: center;
+        padding-bottom: map-get($spacers, 5);
+        h3 {
+            margin: map-get($spacers, 2) map-get($spacers, 2);
+            font-weight: $font-weight-normal;
+            color: $gray-800;
+            @include responsive-font-size(18px);
+            &:nth-child(2) {
+                margin-top: 40px;
+            }
+        }
+        p {
+            color: $gray-500;
+            font-weight: $font-weight-light;
+            @include responsive-font-size(15px);
+        }
+    }
+}

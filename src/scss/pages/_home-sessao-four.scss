@@ -1,0 +1,88 @@
+.home-sessao-four {
+    padding: 80px 0;
+    position: relative;
+
+    &-background-top-left {
+        position: absolute;
+        top: -31rem;
+        z-index: -1;
+        left: 0;
+        width: 20%;
+    }
+    &-background-top-right {
+        position: absolute;
+        top: 0rem;
+        z-index: -1;
+        right: 0;
+        width: 20%;
+        transform: rotate(180deg);
+    }
+
+    &-block-title {
+        text-align: center;
+        margin-bottom: map-get($spacers, 5);
+        p {
+            color: $indigo;
+            margin-bottom: map-get($spacers, 2);
+            text-transform: uppercase;
+            font-weight: $font-weight-normal;
+            @include responsive-font-size(14px);
+        }
+        h2 {
+            font-family: 'Rubik';
+            color: $gray-800;
+            font-weight: $font-weight-bolder;
+            @include responsive-font-size(48px);
+        }
+    }
+
+    &-pricing {
+        #pills-tab{
+            padding-bottom: map-get($spacers, 5);
+        }
+        .tab-content {
+            z-index: 5;
+            
+            div[role=tabpanel] {
+                margin-bottom: map-get($spacers, 4);
+                .card {
+                    border: none;
+                    padding-top: map-get($spacers, 2);
+                    transition: all 0.5s;
+
+                    &:hover {
+                        transform: translateY(-7px);
+                       box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15) !important;
+                    }
+                    h5 {
+                        font-family: 'Rubik';
+                        color: $gray-800;
+                        font-weight: $font-weight-bold;
+                        padding-bottom: map-get($spacers, 3);
+                        @include responsive-font-size(20px);
+                    }
+                    p {
+
+                        padding-bottom: map-get($spacers, 3);
+                        @include responsive-font-size(40px);
+                    }
+                    a {
+                        display: inline-block;
+                        margin-bottom: map-get($spacers, 5);
+                    }
+                    ul {
+                        li {
+                            color: $gray-500;
+                            font-weight: $font-weight-light;
+                            padding: map-get($spacers, 2);
+
+                            span {
+                                @include responsive-font-size(15px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

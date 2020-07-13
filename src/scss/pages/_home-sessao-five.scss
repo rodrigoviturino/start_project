@@ -1,0 +1,40 @@
+.home-sessao-five {
+    padding: 80px 0;
+
+    &-block-title {
+        text-align: center;
+        padding-bottom: map-get($spacers, 5);
+        span {
+            color: $blue;
+            display: block;
+            text-transform: uppercase;
+            @include responsive-font-size(14px);
+        }
+        h2 {
+            color: $red;
+            @include responsive-font-size(48px);
+        }
+        p {
+            color: $gray-500;
+            @include responsive-font-size(15px);
+        }
+    }
+
+    .form {
+        input {
+            &::placeholder {
+                color: $gray-500;
+                font-weight: $font-weight-light;
+            }
+        }
+        button {
+            box-shadow: 0px 16px 31px -16px #2f55d4;
+            transition: all 0.5s;
+            &:hover {
+                transform: translateY(-5px);
+                outline: none;
+                box-shadow: 0 8px 14px rgba(47, 85, 212, 0.2);
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+Tipografia
+    Font-family titulo: "GTWalsheim", sans-serif
+    Font-family Texto: "Rubik", sans-serif
+    Line-height Titulo: 1.2
+obs: Para quebra de linha dos titulos é feito com distribuiçao do grid, tipo col-md-7
+
+Espaçamento
+    - Sessão: 80px
+    - Titulo para conteudo: 3rem
+    - Sub-titulo para titulo: 10px
+    - Titulo para texto: 10px
+
+
+Colors:
+    - #233685 - Background com imagem
+    - #343a40 - Titulo - Sub-titulo  gray-800
+    - #a0a9b1 - texto gray-500
+    - #2f55d4 - Sub-titulo Uppercase - blue
+    - #ff2e5f - Botão - red
+    - #5255c6 - Botão Principal - indigo
+    - #ff426f - Botão Header
+    - #0f1b42 - Bg Footer
+    - #0a122a - Bg Copyright
+    - #ced4da - borda input gray-400

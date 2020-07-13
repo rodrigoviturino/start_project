@@ -1,0 +1,92 @@
+.header-interno { 
+    padding: map-get($spacers, 4) 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 7;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+
+        .logo {
+
+        }
+        #nav-interno {
+            background-color: #fff;
+            #navbar1{
+                display: flex;
+                align-items: center;
+                margin: 0;
+                
+                .menu{
+                    .menu-item{
+                        display: flex;
+                        a {
+                            font-weight: 400;
+                            text-decoration: none;
+                            transition: all 0.5s;
+                            padding: map-get($spacers, 2);
+                            margin: 0 map-get($spacers, 2);
+                            color: $white !important;
+                            @include responsive-font-size(14px);
+    
+                            &:hover {
+                                color: $blue;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        button {
+            display: block;
+            margin: 0;
+            border: none;
+            margin-left: auto;
+            background-color: #ff426f ;
+            color: $white;
+            transition: all 0.5s;
+            border-radius: map-get($spacers, 5);
+            padding: 10px 30px;
+            box-shadow: 0px 16px 31px -16px #ff426f;
+            &:hover {
+                transform: translateY(-5px);
+            }
+        }
+    }
+
+
+}
+
+.header-banner-interno {
+    padding-top: 150px;
+    background-color: transparent;
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+
+    &-block-title {
+        h2 {
+            text-align: center;
+            color: $white;
+            @include responsive-font-size(52px);
+        }
+
+        .breadcrumb {
+            background-color: transparent;
+            &-item {
+                a {
+                    color: $red;
+                }
+                .active {
+                    color: $white;
+                }
+            }
+        }
+    }
+}

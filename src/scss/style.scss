@@ -1,0 +1,91 @@
+/*!
+Theme Name: WaaS
+Theme URI: http://rodrigoviturino.com.br
+Author: Rodrigo Viturino
+Description: Desenvolvimento base para projetos
+Version: 1.0
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: waas
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import "functions";
+@import "variables"; // Custom variables.
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "utilities";
+@import "print";
+
+/* end Bootstrap 4 */
+
+/* Font-family */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&family=Rubik:wght@300;400;500;700;900&display=swap');
+/* end Font-family */
+
+/* Font-Awesome*/
+@import "fontawesome";
+@import "solid";
+@import "brands";
+@import "regular";
+@import "v4-shims";
+/* end Font-Awesome*/
+
+
+/* Theme Website */
+@import "header";
+@import "footer";
+@import "pages/home-introduction";
+@import "pages/home-sessao-one";
+@import "pages/home-sessao-two";
+@import "pages/home-sessao-tree";
+@import "pages/home-sessao-four";
+@import "pages/home-sessao-five";
+@import "pages/page-contact";
+@import "pages/page-careers";
+
+@import "header-interno";
+@import "pages/page-internal";
+@import "page";
+
+@import "global";
+
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+ /* end Theme Website */
