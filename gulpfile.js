@@ -120,7 +120,7 @@ gulp.task('browser-sync', browser);
 function watch() {
   gulp.watch(['src/scss/style.scss', 'src/scss/**/*.scss'], compilaSass).on('change', browserSync.reload);
   // gulp.watch('public/main.js', gulpJS).on('change', browserSync.reload);
-  // gulp.watch(['/src/assets/js/libs/index.js'], pluginJS).on('change', browserSync.reload);
+  gulp.watch(['/src/assets/js/*.js', '/src/assets/js/**/*.js'], pluginJS).on('change', browserSync.reload);
   // gulp.watch(['*.php', './**/*.php']).on('change', browserSync.reload);
   // gulp.watch(['*.html', 'html/**/*.html']).on('change', browserSync.reload);
   gulp.watch(['*.php']).on('change', browserSync.reload);

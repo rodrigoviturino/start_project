@@ -1,0 +1,22 @@
+*** Vamos desenvolver tema de start para projetos
+
+	- Tema: https://sinata.netlify.app/pages/landing-2.html
+	- Tema 02: https://www.designesia.com/themes/bluetec/index-coworking.html
+
+* O que devemos por em prática?
+	- Ser desenvolvida as paginas home, pagina internas, contato, blog
+	- Aplicar header diferente para home e interna = ok
+	- Criar modelo de template para pagina interna personalizada e padrão = ok
+	- Estilo: aplicar componente padrão como tipografia, espaçamento = ok
+
+	Pagina de Carreiras criada, temos que aplicar listagem de categorias dos posts internos
+
+Tema vai ser desenvolvido de uma forma que fique rápido, buscar performance e qualidade.
+Esse planejamento vai ser para todos os projetos em diante, caso queiramos aplicar um sass diferente, precisamos preparar o gulp para isso. Porém vai ser necessário planejar como o outro arquivo vai ser.
+
+
+*** Projetos futuros
+	- Painel Financeiro: simples, para aplicar javascript e aplicar api. Esse Painel é um formulário que vai gerar pdf ou arquivo excel. iremo buscar exemplo de exportar relátorio excel.
+
+	- Bacana será usar excel junto com Node ou php
+	
