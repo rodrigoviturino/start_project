@@ -1,5 +1,4 @@
 *** Vamos desenvolver tema de start para projetos
-
 	- Tema: https://sinata.netlify.app/pages/landing-2.html
 	- Tema 02: https://www.designesia.com/themes/bluetec/index-coworking.html
 
